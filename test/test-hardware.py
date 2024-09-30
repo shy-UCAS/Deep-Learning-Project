@@ -17,6 +17,6 @@ if torch.cuda.is_available():
     print("Number of CUDA devices:", torch.cuda.device_count())
 
     # 输出当前使用的CUDA设备名称
-    print("CUDA device name on this computeris :", torch.cuda.get_device_name(0))
+    print("CUDA device name on this computer is :", torch.cuda.get_device_name(0))
 else:
     print("CUDA is not available.")
